@@ -1,5 +1,5 @@
 const clientId = '884916285d9049ddbba7512e4a13dd77'; // Insert client ID here.
-const redirectUri = 'http://localhost:3000/auth/callback'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
+const redirectUri = 'https://ralefy.surge.sh/auth/callback'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 let accessToken;
 
 const Spotify = {
